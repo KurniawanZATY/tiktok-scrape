@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "tiktok-scraper"
+version = "0.1.0"
+description = "A script for scraping TikTok data"
+authors = ["KurniawanZATY"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+apify-client = "^0.5.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.repositories]
+tiktok-scrape = { url = "https://github.com/KurniawanZATY/tiktok-scrape.git" }
