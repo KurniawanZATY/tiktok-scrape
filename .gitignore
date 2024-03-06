@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Poetry
+.poetry/
+.poetry.lock
+
+# IDE
+.idea/
+
+# Miscellaneous
+.DS_Store
